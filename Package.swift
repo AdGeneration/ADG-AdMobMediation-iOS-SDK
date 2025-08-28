@@ -38,8 +38,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "ADGAdMobMediation",
-            url: "https://github.com/AdGeneration/ADG-AdMobMediation-iOS-SDK/releases/download/2.32.0/ADGAdMobMediation.xcframework.zip",
-            checksum: "822f624b5170f7e3ab4ad7a1f1e34e1fd0272708799f1f6c8cc29bc1410fde83"
+            url: "https://github.com/AdGeneration/ADG-AdMobMediation-iOS-SDK/releases/download/2.32.1/ADGAdMobMediation.xcframework.zip",
+            checksum: "cb0c63612f3426341034ee1e7fa284a2a75cf1ddc457aea76678c7a85260a3d2"
         ),
     ]
 )
