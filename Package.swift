@@ -17,7 +17,7 @@ let package = Package(
     dependencies: [
         .package(
             url: "https://github.com/AdGeneration/ADG-iOS-SDK.git",
-            exact: "2.32.0"
+            exact: "2.33.0"
         ),
         .package(
             url: "https://github.com/googleads/swift-package-manager-google-mobile-ads.git",
@@ -38,8 +38,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "ADGAdMobMediation",
-            url: "https://github.com/AdGeneration/ADG-AdMobMediation-iOS-SDK/releases/download/2.32.1/ADGAdMobMediation.xcframework.zip",
-            checksum: "cb0c63612f3426341034ee1e7fa284a2a75cf1ddc457aea76678c7a85260a3d2"
+            url: "https://github.com/AdGeneration/ADG-AdMobMediation-iOS-SDK/releases/download/2.33.0/ADGAdMobMediation.xcframework.zip",
+            checksum: "a9c8b7035958e86c4ccb79689a63d08e2041b87e05a55f3f17d1450d67183fc7"
         ),
     ]
 )
