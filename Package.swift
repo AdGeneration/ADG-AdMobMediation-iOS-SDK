@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "ADG-AdMobMediation-iOS-SDK",
     platforms: [
-        .iOS(.v13)
+        .iOS(.v15)
     ],
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
@@ -17,7 +17,7 @@ let package = Package(
     dependencies: [
         .package(
             url: "https://github.com/AdGeneration/ADG-iOS-SDK.git",
-            "2.41.0"..<"3.0.0"
+            "2.43.0"..<"3.0.0"
         ),
         .package(
             url: "https://github.com/googleads/swift-package-manager-google-mobile-ads.git",
@@ -38,8 +38,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "ADGAdMobMediation",
-            url: "https://github.com/AdGeneration/ADG-AdMobMediation-iOS-SDK/releases/download/2.41.0/ADGAdMobMediation.xcframework.zip",
-            checksum: "55d97bd42a4a635359652e95d48f76aab3c0827a827f1ae7f65feb25592e410d"
+            url: "https://github.com/AdGeneration/ADG-AdMobMediation-iOS-SDK/releases/download/2.43.0/ADGAdMobMediation.xcframework.zip",
+            checksum: "e76a74381d1559beea74110f7e1b224e6c1e17cc1c09bfd781ee8eaa8aa8f939"
         ),
     ]
 )
